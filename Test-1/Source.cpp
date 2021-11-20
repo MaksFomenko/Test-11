@@ -23,10 +23,10 @@ void init() {
 void loadMedia()
 {
     ButtonChanging[0] = SDL_LoadBMP("12/Click.bmp");
-    ButtonChanging[1] = SDL_LoadBMP("12/W,world.bmp");
-    ButtonChanging[2] = SDL_LoadBMP("12/S,world.bmp");
-    ButtonChanging[3] = SDL_LoadBMP("12/A,world.bmp");
-    ButtonChanging[4] = SDL_LoadBMP("12/D,world.bmp");
+    ButtonChanging[1] = SDL_LoadBMP("12/W.bmp");
+    ButtonChanging[2] = SDL_LoadBMP("12/S.bmp");
+    ButtonChanging[3] = SDL_LoadBMP("12/A.bmp");
+    ButtonChanging[4] = SDL_LoadBMP("12/D.bmp");
 }
 
 void close()
